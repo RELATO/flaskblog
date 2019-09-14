@@ -38,6 +38,21 @@ You should see a message like the this
 Generate a secure hexadecimal token 7865b88579dd1f82b36ec479b9b269c63c59a0a166f3f293c9ddb93b1f08ccc6
 ```
 
+## Creating the mysql database
+
+In your mysql use the command below to create database 
+```
+CREATE DATABASE flaskblog;
+```
+
+Replace the statement below with your [dbuser] and [userpassword] before executing it
+```
+export SQLALCHEMY_DATABASE_URI='mysql+mysqldb://[dbuser]:[userpassword]@localhost/flaskblog'
+
+python3 dbcreate.py
+```
+
+
 ## Running the app
 Replace the statement below with your [dbuser] and [userpassword] before executing it
 ```

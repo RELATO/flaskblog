@@ -63,3 +63,8 @@ export SECRET_KEY=7865b88579dd1f82b36ec479b9b269c63c59a0a166f3f293c9ddb93b1f08cc
 
 python3 run.py
 ```
+
+## Credits and references
+
+[Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
+
